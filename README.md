@@ -12,6 +12,7 @@ An engaging quiz platform where users can attempt multiple quizzes, receive inst
 - ✅ **Progress Tracking** – Stores previous attempts using IndexedDB for future reference.
 - ✅ **Scoreboard & History** – View past quiz attempts and scores.
 - ✅ **Responsive UI** – Works seamlessly on desktop and mobile devices.
+- ✅ **IndexedDB** -Save quiz history using IndexedDB. 
 `
 `## Tech Stack
 `- **Frontend`**: React.js (Hooks & Functional Components)`
