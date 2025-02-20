@@ -19,18 +19,18 @@ An engaging quiz platform where users can attempt multiple quizzes, receive inst
 - **Deployment**: Vercel / Netlify
 
 `## Live Demo`
-🔗 Deployed App Link `(Replace with actual link)`
+🔗 [Deployed App Link](https://quiz-creato.netlify.app/)
 
 ## How to Run Locally
 1**Clone the Repository**
-   ```git clone https://github.com/your-username/quiz-app.git```
+   ```git clone https://github.com/adi01012002/quiz-app.git```
    ```cd quiz-app```
 
 2**Install Dependencies**
    npm install
 
 3**Start the Development Server**
-```npm start ```
+```npm run dev ```
 
 
 Project Structure
