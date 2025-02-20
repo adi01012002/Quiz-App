@@ -1,0 +1,215 @@
+/* General Styles */
+.quiz-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid rgb(25, 26, 25);
+  text-align: center;
+  background: linear-gradient(to bottom, #001f4d, #002b80);
+  color: white;
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1, h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Instructions */
+.instructions {
+  text-align: left;
+  font-size: 1rem;
+  padding: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.instructions li {
+  margin-bottom: 8px;
+}
+
+/* Start Button */
+.start-button {
+  background: #ffcc00;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.start-button:hover {
+  background: #ffdb4d;
+}
+
+/* Question Box */
+.question-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Timer */
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+/* Options Grid */
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option-button {
+  background: #007bff;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-button:hover {
+  background: #0056b3;
+}
+
+/* Integer Input */
+.integer-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.integer-textbox {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit-button {
+  background: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background: #218838;
+}
+
+/* Feedback */
+.feedback {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ffcc00;
+}
+
+
+.scoreboard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  position:relative;
+  top: 110px;
+  left: 0px;
+}
+
+.scoreboard p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.option-button {
+  margin-top: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+  .quiz-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .timer {
+    font-size: 1rem;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .option-button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .integer-textbox {
+    width: 100%;
+  }
+
+  .feedback {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quiz-container {
+    width: 95%;
+  }
+
+  h1, h2 {
+    font-size: 1.3rem;
+  }
+
+  .timer {
+    font-size: 0.9rem;
+  }
+
+  .option-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .feedback {
+    font-size: 0.9rem;
+  }
+}

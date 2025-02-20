@@ -1,0 +1,82 @@
+/* App.css
+.container {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Top Navigation (for history button) */
+/*
+.top-nav {
+  display: flex;
+  justify-content: flex-end;  
+  padding: 10px;
+}
+
+.history-btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #007bff;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.history-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* Container Styles */
+.container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+/* Navbar Styling (Top Right) */
+.top-nav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/* Link (Button) Styling */
+.history-btn {
+  background-color: #00bcd4;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.history-btn:hover {
+  background-color: #0097a7;
+  transform: scale(1.1);
+}
+
+.history-btn:active {
+  background-color: #007c8f;
+}
+
+/* Make buttons look good on smaller screens */
+@media (max-width: 768px) {
+  .top-nav {
+    top: 15px;
+    right: 15px;
+    flex-direction: column;
+  }
+
+  .history-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
